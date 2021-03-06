@@ -64,16 +64,19 @@ namespace MediaManager.Player
         /// <summary>
         /// Stops playing but retains position
         /// </summary>
+        
         Task Pause();
 
         /// <summary>
         /// Stops playing
         /// </summary>
+        
         Task Stop();
 
         /// <summary>
         /// Changes position to the specified number of milliseconds from zero
         /// </summary>
+        
         Task SeekTo(TimeSpan position);
 
         /// <summary>
